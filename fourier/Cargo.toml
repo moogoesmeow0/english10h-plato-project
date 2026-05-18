@@ -1,0 +1,12 @@
+[package]
+name = "fourier"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+butterworth = "0.1.0"
+csv = "1.4.0"
+plotters = { version = "0.3.7", features = ["svg_backend"] }
+rayon = "1.11.0"
+rustfft = "6.4.1"
+serde = { version = "1.0.228", features = ["derive"] }
